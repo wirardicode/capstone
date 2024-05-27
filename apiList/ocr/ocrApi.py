@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/ocr', methods=['POST'])
 def ocr():
     if 'image' not in request.files:
-        return jsonify({"error": "No file part"}), 400
+        return jsonify({"error": "can't read your file"}), 400
 
     file = request.files['image']
 
