@@ -3,6 +3,7 @@
 thp 1
 --
 bro jangan lupa install modul yang dipakai
+simpen di c: program file setlah di extract/unpacked
 
 thp 2
 --
