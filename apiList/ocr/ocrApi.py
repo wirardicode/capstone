@@ -36,7 +36,7 @@ def ocr():
          #   return jsonify({"error": "fotal isnot found"}), 404
         #---------------------------------
 
-         # Mencari teks 'Fotal harga: xxx'
+         # Identifikasi angaka pada baris terakhir nota
          #------------------------------------
         # Mencari angka di baris terakhir
         lines = [line.strip() for line in text.splitlines() if line.strip()]
